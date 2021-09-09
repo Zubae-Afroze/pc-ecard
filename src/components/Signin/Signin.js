@@ -12,6 +12,7 @@ const Signin = () => {
         <form onSubmit={submitHandler}>
           <input type='email' placeholder='Email Address' />
           <input type='password' placeholder='Password' />
+          <button>Sign In</button>
         </form>
       </div>
     </>
