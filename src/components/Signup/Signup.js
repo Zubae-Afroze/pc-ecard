@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const Signup = () => {
   const submitHandler = () => {
@@ -8,6 +9,7 @@ const Signup = () => {
   return (
     <>
       <div>
+        <Link to='/'>Back</Link>
         <form onSubmit={submitHandler}>
           <input type='text' placeholder='Name' />
           <input type='email' placeholder='Email Address' />
